@@ -1,5 +1,5 @@
-//(function () {
-  //'use strict';
+(function () {
+  'use strict';
   var app = angular.module('myLabs', []);
   // app.controller('labNumber', function($scope){
   //
@@ -50,8 +50,8 @@
           console.log(mult);
         };
       },
-      controllerAs: "lab1Ctrl",
+      controllerAs: "lab1Ctrl"
     };
 });
 
-//})();
+})();

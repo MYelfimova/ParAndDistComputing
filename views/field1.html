@@ -1,10 +1,10 @@
-<div ng-controller="lab1Ctrl as lab1">
+<div ng-controller="lab1Ctrl">
   <h4>Множення матриці на вектор</h4>
 
   <p>Введіть розмірність матриці та довжину вектору</p>
   <input type="number" id="number1" min="0">
 
-  <button type="button" ng-click="lab1.countTime1()">Порахувати</button>
+  <button type="button" ng-click="lab1Ctrl.countTime1()">Порахувати</button>
   <br>
-  <h5>Час виконання множення: {{lab1.time1}} мілісекунд</h5>
+  <h5>Час виконання множення: {{lab1Ctrl.time1}} мілісекунд</h5>
 </div>
